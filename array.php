@@ -16,15 +16,22 @@ $matakuliah = array('Web Programming','Database Client Server','Java Programming
 </head>
 <body>
 	<?php 
-			echo "<h2><center>~ Belajar Array ~</h2><br><br>";
-			echo " Hai perkenalkan :)<br>Nama Saya : ".$biodata['nama'];
+			echo "<h2 style='color:red'><center>~ Belajar Array ~</h2><br><br>";
+
+			echo "<b><i> Hai perkenalkan :)</i></b><br><br>Nama Saya : ".$biodata['nama'];
 			echo "<br>";
 			echo " Dari Kelas  : ".$biodata['kls'];
 			echo "<br>";
 			echo " Saya Tinggal di  : ".$biodata['alamat'];
 			echo "<br><br>";
-			echo "Menampilkan array : <br>";
+
+			echo "Menampilkan isi array matakuliah : <br>";
 			print_r ($matakuliah);
+
+			echo "<br><br> Matakuliah favorit Saya : <br>";
+			for($x=0;$x<count($matakuliah);$x++){
+			echo "- ".$matakuliah[$x]."<br/>";
+}
 
 	?>
 </body>
