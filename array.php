@@ -16,7 +16,7 @@ $matakuliah = array('Web Programming','Database Client Server','Java Programming
 </head>
 <body>
 	<?php 
-			echo "<h2 style='color:red'><center>~ Belajar Array ~</h2><br><br>";
+			echo "<h2 style='color:#00BFFF'><center>~ Belajar Array ~</h2><br><br>";
 
 			echo "<b><i> Hai perkenalkan :)</i></b><br><br>Nama Saya : ".$biodata['nama'];
 			echo "<br>";
