@@ -59,10 +59,11 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 
 			echo "<br>";
 			echo "<br>";
-
+			echo "<p style='text-align: justify; text-indent: 4.5in;'>";
 			echo "$tgl";
-			echo "<br><br>";
-			echo "$ttd";
+			echo "<br><br><br>";
+			echo "<p style='text-align: justify; text-indent: 4.5in;'>";
+			echo "<u>$ttd</u>";
 			echo "</div></div></div>";
 
 	?>
