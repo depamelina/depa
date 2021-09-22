@@ -30,7 +30,7 @@ $matakuliah = array('Web Programming','Database Client Server','Java Programming
 
 			echo "<br><br> Matakuliah favorit Saya : <br>";
 			for($x=0;$x<count($matakuliah);$x++){
-			echo "- ".$matakuliah[$x]."<br/>";
+			echo "$x. ".$matakuliah[$x]."<br/>";
 }
 
 	?>
