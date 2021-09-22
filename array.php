@@ -22,7 +22,8 @@ $matakuliah = array('Web Programming','Database Client Server','Java Programming
 			echo " Dari Kelas  : ".$biodata['kls'];
 			echo "<br>";
 			echo " Saya Tinggal di  : ".$biodata['alamat'];
-			echo "<br>";
+			echo "<br><br>";
+			echo "Menampilkan array : <br>";
 			print_r ($matakuliah);
 
 	?>
