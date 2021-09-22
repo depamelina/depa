@@ -15,6 +15,7 @@ $biodata = array(
 <body>
 	<?php 
 			echo $biodata['nama'];
+			print_r ($biodata);
 
 	?>
 </body>
