@@ -50,7 +50,7 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 			echo "<br>";
 
 			$n=1;
-			echo "Berikut ini daftar barang yang akan kami pinjam<br>";
+			echo "Berikut ini daftar barang yang akan kami pinjam :<br>";
 			for($x=0;$x<count($barang);$x++){
 
 			echo $n.". ".$barang[$x]."<br/>";
