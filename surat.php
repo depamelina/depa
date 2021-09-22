@@ -38,12 +38,13 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 			echo "<br>";
 			echo " Perihal : Surat Peminjaman Barang";
 			echo "<br>";
-			echo " Kepada : ";
+			echo " Kepada : <br>";
+			echo "<p style='text-align: justify; text-indent: 0.5in;'>";
 			echo $instansi[0];
 			echo "<br>";
 			echo "<p style='text-align: justify; text-indent: 0.5in;'>";
 			echo $instansi[1]." (".$instansi[2].")";
-			
+
 			echo "<br>"; echo "<br>";
 			echo "<p style='text-align: justify; text-indent: 0.5in;'>";
 			echo "Dengan surat ini kami beritahu bahwa ada beberapa barang yang ingin kami pinjam. Semoga dengan ditulisnya surat ini Bapak/Ibu dapat memberikan beberapa barang yang kami butuhkan untuk menunjang kegiatan yang akan dilakukan.<br>";
