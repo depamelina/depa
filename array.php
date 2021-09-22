@@ -1,7 +1,9 @@
 <?php 
 $biodata = array(
 	'nama' => "Depa",
-	'kelas' => "MI20B");
+	'kelas' => "MI20B",
+	'alamat' => "Seoul"
+	);
 
 ?>
 
@@ -13,6 +15,8 @@ $biodata = array(
 <body>
 	<?php 
 			echo $biodata['nama'];
+			echo "<br>";
+			print_r ($biodata);
 
 	?>
 </body>
