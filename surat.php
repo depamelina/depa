@@ -31,6 +31,7 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 			echo "<div class='container'>";
 			echo "<div class='margin'>";
 			echo "<div class='padding'>";
+
 			echo "<h2><center>Surat Peminjaman Barang</h2><br><hr>";
 
 			echo "</b><br><br>Nomor : 102 ";
@@ -66,6 +67,9 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 			echo "<u>$ttd</u>";
 			echo "</div></div></div>";
 
+			//DEPA MELINA MI20B :)
+
 	?>
+
 </body>
 </html>
