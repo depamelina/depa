@@ -23,10 +23,10 @@ $matakuliah = array('Web Programming','Database Client Server','Java Programming
 			echo " Dari Kelas  : ".$biodata['kls'];
 			echo "<br>";
 			echo " Saya Tinggal di  : ".$biodata['alamat'];
-			echo "<br><br>";
+			//echo "<br><br>";
 
-			echo "Menampilkan isi array matakuliah : <br>";
-			print_r ($matakuliah);
+			/*echo "Menampilkan isi array matakuliah : <br>";
+			print_r ($matakuliah);*/
 
 			echo "<br><br> Matakuliah favorit Saya : <br>";
 			for($x=0;$x<count($matakuliah);$x++){
