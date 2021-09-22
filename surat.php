@@ -11,7 +11,7 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Array</title>
+	<title> Surat</title>
 	<style>
         .container {
             border: 1px solid #000;
