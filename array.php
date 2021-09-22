@@ -28,10 +28,13 @@ $matakuliah = array('Web Programming','Database Client Server','Java Programming
 			/*echo "Menampilkan isi array matakuliah : <br>";
 			print_r ($matakuliah);*/
 
+			$n=1;
 			echo "<br><br> Matakuliah favorit Saya : <br>";
 			for($x=0;$x<count($matakuliah);$x++){
-			echo "$x. ".$matakuliah[$x]."<br/>";
-}
+
+			echo $n." ".$matakuliah[$x]."<br/>";
+			$n++;
+			}
 
 	?>
 </body>
