@@ -1,4 +1,6 @@
 <?php 
+//Buat koneksi
+$con = new mysqli("localhost","root","","db_surat");
 
 $tgl = date('d F Y');
 $kota = 'Tasikmalaya';
@@ -6,6 +8,8 @@ $barang = array('Komputer','Projector','Router','Wi-Fi');
 $ttd = 'Depa Melina';
 $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 
+if ($con) {
+	
 ?>
 
 <!DOCTYPE html>
@@ -28,15 +32,38 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 </head>
 <body>
 	<?php 
+
+
+	$sql = "SELECT * FROM tbl_surat WHERE id = '2'";
+	$query = mysqli_query($con, 'SELECT * FROM tbl_surat');
+	$result = $con->query($sql);
+
+
+	$isi = $result->fetch_assoc();
+
 			echo "<div class='container'>";
 			echo "<div class='margin'>";
 			echo "<div class='padding'>";
 
-			echo "<h2><center>Surat Peminjaman Barang</h2><br><hr>";
+			
 
-			echo "</b><br><br>Nomor : 102 ";
+				if ($isi["jenis_surat"]='1') {
+					$js = "Surat Keputusan";
+				}
+				elseif ($isi["jenis_surat"]='2') {
+					$js = "Surat Pernyataan";
+				}
+				elseif ($isi["jenis_surat"]='3') {
+					$js = "Surat Peminjaman";
+				}
+				else{
+					$js = "Kode Salah";
+				}
+
+			echo "<h2><center>" . $js . "</h2><br><hr>";
+			echo "</b><br><br>Nomor : " . $isi["no_surat"];
 			echo "<br>";
-			echo " Perihal : Surat Peminjaman Barang";
+			echo " Perihal : " . $js;
 			echo "<br>";
 			echo " Kepada : <br>";
 			echo "<p style='text-align: justify; text-indent: 0.5in;'>";
@@ -62,10 +89,10 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 			echo "<br>";
 			echo "<br>";
 			echo "<p style='text-align: justify; text-indent: 4.5in;'>";
-			echo "$tgl,";
+			echo $isi["tgl_surat"];
 			echo "<br><br><br>";
 			echo "<p style='text-align: justify; text-indent: 4.5in;'>";
-			echo "<u>$ttd</u>";
+			echo "<u>" .$isi["ttd_surat"] . "</u>";
 			echo "</div></div></div>";
 
 			//DEPA MELINA MI20B :)
@@ -74,3 +101,12 @@ $instansi = array('LP3I','Kota Tasikmalaya','082-345-455');
 
 </body>
 </html>
+
+
+<?php
+
+}else{
+	die("Yah! Koneksi Database pertama gagal : " . mysqli_connec_eror());
+}
+
+?>
