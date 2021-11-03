@@ -38,10 +38,10 @@
                   <div class="card-body">
                     <h3 class="card-title pricing-card-title">Rp10.000<small class="text-muted fw-light">/minggu</small></h3>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li>included PSPL & kunjungan industri</li>
-                      <li>Biaya pendidikan 1 tahun</li>
-                      <li>Sertifikat Ujikom Nasional</li>
-                      <li>Non-Beasiswa</li>
+                      <li>Buku Pegangan</li>
+                      <li>Tutor Berkualitas</li>
+                      <li>Diskon 0.5%</li>
+                      <li>Free Handbag</li>
                     </ul>
                     <!--<button type="button" class="w-100 btn btn-lg btn-outline-primary">Daftar Sekarang</button>-->
                   </div>
@@ -56,10 +56,10 @@
                   <div class="card-body">
                     <h3 class="card-title pricing-card-title">Rp20.000<small class="text-muted fw-light">/bulan</small></h3>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li>Included PSPL & kunjungan industri</li>
-                      <li>Biaya pendidikan 1 tahun</li>
-                      <li>Sertifikat Ujikom Nasional</li>
-                      <li>Non-Beasiswa</li>
+                      <li>Buku Pegangan</li>
+                      <li>Tutor Berkualitas</li>
+                      <li>Diskon 5%</li>
+                      <li>Free Headset</li>
                     </ul>
                   </div>
                 </div>
@@ -73,11 +73,10 @@
 					  <div class="card-body">
 						<h3 class="card-title pricing-card-title">Rp30.000<small class="text-muted fw-light">/semester</small></h3>
 						<ul class="list-unstyled mt-3 mb-4">
-						  <li>Included PSPL & kunjungan industri</li>
-						  <li>Biaya pendidikan 1 tahun</li>
-						  <li>Sertifikat Ujikom Nasional</li>
-						  <li>Beasiswa pendidikan</li>
-						  <li> </li>
+						  <li>Buku Pegangan</li>
+               <li>Tutor Berkualitas</li>
+               <li>Diskon 8%</li>
+               <li>Free Powerbank</li>
 						</ul>
 					  </div>
 					</div>
