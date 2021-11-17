@@ -35,7 +35,7 @@ $jpaket = $ctrl->getJenisPaket();
 <div class="card border-primary " style="width: 45rem;">
 
 		  <div class="card-body">
-		  <form class="row g-3" method="post" action="<?php $ctrl->simpanData();?>" name="form1">
+		  <form class="row g-3" method="post" action="<?php $ctrl->simpanKursus();?>" name="form1">
               <div class="col-6">
               
 			     <div class="input-group input-group-outline col-md-6">
